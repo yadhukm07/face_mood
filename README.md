@@ -52,7 +52,7 @@ For training the model required tf-record which is build from the dataset
 ```
 This tf-record can be made from the csv file which can be made through the following steps
 
-1--making all image to a standard resolution(1920*720)
+#### 1--making all image to a standard resolution(1920*720)
 
     --copy all iamges to a repository
    
@@ -62,7 +62,7 @@ This tf-record can be made from the csv file which can be made through the follo
    
     --run the rezize.py and the rezized image will be in the destination folder
 
-2--Rename the all rezized images in serial number(eg:img (1), img (2))
+#### 2--Rename the all rezized images in serial number(eg:img (1), img (2))
 
     --This can be done in windows-->"https://youtu.be/5X8OdurpYyM"
 
