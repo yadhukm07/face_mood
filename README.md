@@ -25,6 +25,7 @@ For better accuracy and result the model have to be trained with a well defined 
 collected 57000 ariel and drone images
 
 Source
+   [Nueral netwoks](http://neuralnetworksanddeeplearning.com/chap1.html)
 
    [UAV123]("https://ivul.kaust.edu.sa/Pages/Dataset-UAV123.aspx ")
    
