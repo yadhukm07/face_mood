@@ -33,9 +33,11 @@ Source
 
   3. [Flood ariel images]--[sample image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8eX5lCtfdKNb4OHancP85PjDtlqIHdsz5rUGNsU2SMWi7qJA2)
 
-*Screenshots  from Drone videos of humans from youtube and google-- eg: "https://youtu.be/2JuSrDF4bmo"
+  4. [Screenshots  from Drone videos of humans from youtube]--[sample video](https://youtu.be/2JuSrDF4bmo)
 
-*All collected data::--->"https://drive.google.com/open?id=1oAzlGOaeC575patIbAZEIPoE3T6NM89_"
+
+All collected data::--->[Drive Link](hhttps://drive.google.com/open?id=1oAzlGOaeC575patIbAZEIPoE3T6NM89)
+
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
