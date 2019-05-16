@@ -2,6 +2,20 @@
 
 Detection of humans from the image captured by the drone images and low altitude drone image using deeplearning model with convolutional nueral network.The final model is developed by trained using 57000 images which is trained on resnet101 which is a faster-rcnn model
 
+The project can be devided into 5 phases
+
+1.Data set collection(image collection)
+
+2.Data set preprocessing+Data set annottation/labelling
+
+3.Tf-record Creation
+
+4.installing and deveoloping tensorflow model,installing all the required dependencies and libraries
+
+5.Training and Testing using the dataset on the model
+
+6.Testing with the real examples and retraing by changing various parameters
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
