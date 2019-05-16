@@ -110,7 +110,127 @@ This tf-record can be made from the csv file which can be made through the follo
       --done using--"https://youtu.be/dqNwpIRBOrA"
 
 
+##  PHASE 3:TF RECORD CREATION
 
+For training the model tf-record file is needed.It is made from the xml files and iamges
+ 
+  #### 1--xml to csv conversion
+  
+    ---Clone the directory "https://github.com/vijeshkpaei/legacy.git"
+    
+    ---create a folder images in the directory
+    
+    ---create two sub directory 'test' and 'train' in this 'images' directory
+    
+    ---copy the 75% of the total data set into the train folder(37500) both image and its annottation
+    
+    ---copy the 24% of the total data set into the test folder(12000) both image and its annottation
+    
+    ---create seperate csv file for both training and testing data
+    
+    ---csv file for training can be created using
+        
+        ---> python xml_to_csv.py -i /home/yadhu07/Downloads/legacy-master/images/train -o /home/yadhu07/Downloads/legacy-master/
+             images/train.csv
+             
+     ---csv file for training can be created using        
+      
+         ---> python xml_to_csv.py -i /home/yadhu07/Downloads/legacy-master/images/train -o /home/yadhu07/Downloads/legacy-master
+             images/train.csv
+     
+   #### 2--csv to tf-record creation
+    
+       ---copy the path of the train.csv and test.csv file paste in the respective position of below command
+       
+       ---move to the legacy-master directory
+       
+       ---tf-record for traning can be creaeted using
+            
+              --->python generate_tfrecord.py --label1=human --csv_input=/home/cvlab2/tensorflow/workspace/training_demo
+                  /annotations/train.csv --output_path=/home/cvlab2/tensorflow/workspace/training_demo/annotations/train.record
+                  --img_path=/home/cvlab2/tensorflow/workspace/training_demo/images/train
+ 
+       
+       ---tf-record for testing can be creaeted using
+              --> --->python generate_tfrecord.py --label1=human --csv_input=/home/cvlab2/tensorflow/workspace/training_demo
+                  /annotations/test.csv --output_path=/home/cvlab2/tensorflow/workspace/training_demo/annotations/test.record
+                  --img_path=/home/cvlab2/tensorflow/workspace/training_demo/images/test          
+## PHASE 4:  TENSORFLOW AND OTHER DEPENDENCIES INSTALLATION 
+
+    ---Required python3, pip
+    
+         --->pip install tf-nightly
+         --->pip install pillow
+         --->pip install lxml
+         --->pip install jupyter
+         --->pip install matplotlib
+         --->clone the github-------"git clone https://github.com/tensorflow/models.git"
+         
+    ---IN UBUNTU----
+          
+          --->protoc object_detection/protos/*.proto --python_out=.
+
+          --->export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
+          
+          --->sudo ./configure
+          
+          --->sudo make check
+          
+          --->sudo make install
+
+
+     ---downloading and setting pretrained model
+     
+        --->download faster_rcnn_resnet101_coco from "https://github.com/tensorflow/models/blob/master/research/object_detection
+           
+           /g3doc/detection_model_zoo.md
+          
+        --->extract it to the '/home/yadhu07/models/research/tensorflow'
+        
+        --->copy the corresponding faster_rcnn_resnet101_coco.config file from '/home/yadhu07/models/research/object_detection
+            
+            /samples/configs'
+                 
+          
+
+ 
+## PHASE 5:  TRAINING 
+ 
+  --->Training the model and create the frozen output model file (forzen_graph.pb).
+  
+      -->move to the models directory
+      
+       -->copy the path of train.record and test.record and copy it to the path in the following command
+       
+       -->Editing the cofiguration file 
+       
+          -->add the path of train.record and test.record
+          
+          -->add the path of label.pbtxt
+       
+       -->python object_detection/legacy/train.py --train_dir=/home/yadhu07/models/research/tensorflow/train1
+          --pipeline_config_path=/home/yadhu07/models/research/tensorflow/faster_rcnn_resnet101_coco.config
+          
+        -->In the final_model.ipynb file edits the following line of paths
+           
+             ----PATH_TO_CKPT = '/home/yadhu07/models/research/tensorflow/output/frozen_inference_graph.pb'
+             
+             ----PATH_TO_LABELS = '/home/yadhu07/models/research/tensorflow/labels.pbtxt'
+        
+ ## PHASE 6:  LOADING THE MODEL AND VALIDATION
+ 
+    --->open the jupyter notebook and load the final_model.ipynb file
+    
+    ---->put the 1% of the 50000 images in the '/home/yadhu07/models/research/tensorflow/test' directory'(50 images)
+    
+    ---->Give the path of the 
+    
+    ---->Run the file and evaluate result
+       
+       
+      
+      
+                     
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
