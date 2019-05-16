@@ -4,6 +4,9 @@ Detection of humans from the image captured by the drone images and low altitude
 
 Prerequisites:::[Nueral netwoks](http://neuralnetworksanddeeplearning.com/chap1.html),[Convolutional Nueral NEtwork](https://skymind.ai/wiki/convolutional-network)
 
+
+![alt text](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwixhuXy3KDiAhXa7nMBHW24BkwQjRx6BAgBEAU&url=https%3A%2F%2Fwww.sideshow.com%2Fcollectibles%2Fmarvel-iron-man-mark-iv-hot-toys-903341&psig=AOvVaw1NYuVQkpcptBVRcEMTB3Rc&ust=1558119309259505)
+
 The project can be devided into 5 phases
 
 1.Data set collection(image collection)
