@@ -50,25 +50,25 @@ For training the model required tf-record which is build from the dataset
    ---image to xml conversion---(img+xml)-->csv conversion
    ---Csv to tf-record creation
 ```
---->This tf-record can be made from the csv file which can be made through the following steps
+This tf-record can be made from the csv file which can be made through the following steps
 
 1--making all image to a standard resolution(1920*720)
 
-   --copy all iamges to a repository
+    --copy all iamges to a repository
    
-   --make an additional repsitory
+    --make an additional repsitory
    
-   --copy the image repository address and destination folder address to rezize.py python code
+    --copy the image repository address and destination folder address to rezize.py python code
    
-   --run the rezize.py and the rezized image will be in the destination folder
+    --run the rezize.py and the rezized image will be in the destination folder
 
 2--Rename the all rezized images in serial number(eg:img (1), img (2))
 
-  --This can be done in windows-->"https://youtu.be/5X8OdurpYyM"
+    --This can be done in windows-->"https://youtu.be/5X8OdurpYyM"
 
-3--Annottate/labelling the image--->using labelimage tool
+#3-Annottate/labelling the image--->using labelimage tool
 
-3.1  ---clone the required git-hub repository-->"https://github.com/tzutalin/labelImg.git"
+   3.1  ---clone the required git-hub repository-->"https://github.com/tzutalin/labelImg.git"
  
       ---install Python 3 + Qt5 
        
