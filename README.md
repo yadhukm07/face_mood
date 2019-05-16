@@ -158,6 +158,8 @@ For training the model tf-record file is needed.It is made from the xml files an
 ## PHASE 4:  TENSORFLOW AND OTHER DEPENDENCIES INSTALLATION 
 
  Required [Python](https://www.python.org/download/releases/3.0/),[PIP](https://pip.pypa.io/en/stable/installing/)
+ 
+ Further reading and details [Link](https://www.python.org/download/releases/3.0/),[PIP](https://pip.pypa.io/en/stable/installing/)
     
          --->pip install tf-nightly
          --->pip install pillow
