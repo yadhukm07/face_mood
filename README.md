@@ -41,20 +41,14 @@ Source
 
 
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-```bash
-pip install foobar
-```
+## PHASE 2: DATA SET PREPROCESSING AND ANNOTTATION
 
-## Usage
+For training the model required tf-record which is build from the dataset
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+```---image to xml conversion
+   ---(img+xml)-->csv conversion
+   ---Csv to tf-record creation
 ```
 
 ## Contributing
