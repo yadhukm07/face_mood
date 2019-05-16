@@ -68,7 +68,8 @@ This tf-record can be made from the csv file which can be made through the follo
 
 #### 3-Annottate/labelling the image--->using labelimage tool
 
-   3.1  ---clone the required git-hub repository-->"https://github.com/tzutalin/labelImg.git"
+  
+  3.1  ---clone the required git-hub repository-->"https://github.com/tzutalin/labelImg.git"
  
       ---install Python 3 + Qt5 
        
@@ -82,6 +83,7 @@ This tf-record can be made from the csv file which can be made through the follo
    -
     --go to the labelimg directory
    
+  
     ---Go to the data folder and edit the 'predifined_classess.txt' edit the names of the label that  are required to label
       (Add the label 'human')
    
@@ -95,8 +97,10 @@ This tf-record can be made from the csv file which can be made through the follo
    
     ---The output file is in 'xml' format
   
+  
   3.2  --- converting the already annotted text file to the xml format
       
+  
       Some dataset that available in the internet like UAV123 comes along with the annnotted file.Those files of 
       multiple classess or objects.From this annotted files The one corresponds to the class human have to be 
       sorted out
