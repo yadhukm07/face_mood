@@ -157,7 +157,7 @@ For training the model tf-record file is needed.It is made from the xml files an
                   --img_path=/home/cvlab2/tensorflow/workspace/training_demo/images/test          
 ## PHASE 4:  TENSORFLOW AND OTHER DEPENDENCIES INSTALLATION 
 
-    ---Required python3, pip
+ Required [Python](https://www.python.org/download/releases/3.0/),[PIP](https://pip.pypa.io/en/stable/installing/)
     
          --->pip install tf-nightly
          --->pip install pillow
