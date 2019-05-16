@@ -36,7 +36,7 @@ Source
   4. [Screenshots  from Drone videos of humans from youtube]--[sample video](https://youtu.be/2JuSrDF4bmo)
 
 
-All collected data::--->[sample video](https://youtu.be/2JuSrDF4bmo)
+All collected data::--->[sample video](https://drive.google.com/open?id=1oAzlGOaeC575patIbAZEIPoE3T6NM89)
 
 
 
