@@ -66,7 +66,7 @@ This tf-record can be made from the csv file which can be made through the follo
 
     --This can be done in windows-->"https://youtu.be/5X8OdurpYyM"
 
-# 3-Annottate/labelling the image--->using labelimage tool
+#### 3-Annottate/labelling the image--->using labelimage tool
 
    3.1  ---clone the required git-hub repository-->"https://github.com/tzutalin/labelImg.git"
  
