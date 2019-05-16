@@ -26,11 +26,11 @@ collected 57000 ariel and drone images
 
 Source
 
-    *[UAV123]("https://ivul.kaust.edu.sa/Pages/Dataset-UAV123.aspx ")
+   [UAV123]("https://ivul.kaust.edu.sa/Pages/Dataset-UAV123.aspx ")
    
-    *[Kerala flood images-----> eg]:("https://images.financialexpress.com/2018/08/pic-8.jpg")
+   [Kerala flood images-----> eg]:("https://images.financialexpress.com/2018/08/pic-8.jpg")
 
-    *flood ariel images
+   flood ariel images
 
 *Screenshots  from Drone videos of humans from youtube and google-- eg: "https://youtu.be/2JuSrDF4bmo"
 
