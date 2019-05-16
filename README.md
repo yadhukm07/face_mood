@@ -68,7 +68,7 @@ This tf-record can be made from the csv file which can be made through the follo
 
 #### 3-Annottate/labelling the image--->using labelimage tool
 
-   ########3.1  ---clone the required git-hub repository-->"https://github.com/tzutalin/labelImg.git"
+   ######## 3.1  ---clone the required git-hub repository-->"https://github.com/tzutalin/labelImg.git"
  
       ---install Python 3 + Qt5 
        
