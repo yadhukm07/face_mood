@@ -1,6 +1,6 @@
-# PEDSTRIAL HUMAN DETECTION USING DEEP LEARNING
+# HUMAN DETECTION USING DEEP LEARNING MODEL
 
-Detection of humans from the image captured by the drone images and low altitude drone image using deeplearning model with convolutional nueral network.
+Detection of humans from the image captured by the drone images and low altitude drone image using deeplearning model with convolutional nueral network.The final model is developed by trained using 57000 images which is trained on resnet101 which is a faster-rcnn model
 
 ## Installation
 
