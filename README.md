@@ -159,8 +159,10 @@ For training the model tf-record file is needed.It is made from the xml files an
 
  Required [Python](https://www.python.org/download/releases/3.0/),[PIP](https://pip.pypa.io/en/stable/installing/)
  
- Further reading and details [Link](https://www.python.org/download/releases/3.0/),[PIP](https://pip.pypa.io/en/stable/installing/)
-    
+ Further reading and details [Link](https://www.python.org/download/releases/3.0/)
+ 
+  #### 1--installing required packages and dependencies      
+ 
          --->pip install tf-nightly
          --->pip install pillow
          --->pip install lxml
@@ -168,7 +170,7 @@ For training the model tf-record file is needed.It is made from the xml files an
          --->pip install matplotlib
          --->clone the github-------"git clone https://github.com/tensorflow/models.git"
          
-    ---IN UBUNTU----
+  #### 2--Environment setup in UBUNTU 18.0.4
           
           --->protoc object_detection/protos/*.proto --python_out=.
 
@@ -181,7 +183,7 @@ For training the model tf-record file is needed.It is made from the xml files an
           --->sudo make install
 
 
-     ---downloading and setting pretrained model
+   #### 3---downloading and setting pretrained model
      
         --->download faster_rcnn_resnet101_coco from "https://github.com/tensorflow/models/blob/master/research/object_detection
            
@@ -232,11 +234,4 @@ For training the model tf-record file is needed.It is made from the xml files an
        
       
       
-                     
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+                    
