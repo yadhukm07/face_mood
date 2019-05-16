@@ -1,6 +1,6 @@
-# Foobar
+# PEDSTRIAL HUMAN DETECTION USING DEEP LEARNING
 
-Foobar is a Python library for dealing with word pluralization.
+Detection of humans from the image captured by the drone images and low altitude drone image using deeplearning model with convolutional nueral network.
 
 ## Installation
 
