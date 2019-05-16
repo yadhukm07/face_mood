@@ -4,7 +4,7 @@ Detection of humans from the image captured by the drone images and low altitude
 
 Prerequisites:::[Nueral netwoks](http://neuralnetworksanddeeplearning.com/chap1.html),[Convolutional Nueral NEtwork](https://skymind.ai/wiki/convolutional-network)
 
-![alt text](https://github.com/yadhukm07/face_mood/blob/master/9.png)
+![alt text](https://github.com/yadhukm07/face_mood/blob/master/index2.png)
 
 The project can be devided into 5 phases
 
