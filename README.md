@@ -27,11 +27,11 @@ collected 57000 ariel and drone images
 Source
    
 
-   [UAV123]--[link](http://neuralnetworksanddeeplearning.com/chap1.html)
+  1. [UAV123]--[link](http://neuralnetworksanddeeplearning.com/chap1.html)
    
-   [Kerala flood images]--[Example link](http://neuralnetworksanddeeplearning.com/chap1.html)
+  2. [Kerala flood images]--[Example link](http://neuralnetworksanddeeplearning.com/chap1.html)
 
-   flood ariel images
+  3. [Flood ariel images]--[sample image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8eX5lCtfdKNb4OHancP85PjDtlqIHdsz5rUGNsU2SMWi7qJA2)
 
 *Screenshots  from Drone videos of humans from youtube and google-- eg: "https://youtu.be/2JuSrDF4bmo"
 
