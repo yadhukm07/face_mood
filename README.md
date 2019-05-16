@@ -46,8 +46,8 @@ Source
 
 For training the model required tf-record which is build from the dataset
 
-```---image to xml conversion
-   ---(img+xml)-->csv conversion
+```---
+   ---image to xml conversion---(img+xml)-->csv conversion
    ---Csv to tf-record creation
 ```
 
